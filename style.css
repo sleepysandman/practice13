@@ -1,0 +1,23 @@
+@charset "utf-8";
+body{
+    background-color: #34495E;
+}
+
+.master{
+    border: 1px solid red;
+    padding: 0.5% 0.5% 0% 0.5% ;
+    display: grid;
+    gap: 12px 12px;
+    grid-template-columns: repeat( auto-fit,minmax(96px,1fr));
+    grid-auto-rows: 200px;
+    grid-auto-columns: 200px;
+    grid-auto-flow: dense;
+ 
+    
+}
+
+.master>div{
+    border: 1px solid red;
+    background-color: #ECF0F1;
+    border-radius: 5px;
+}
